@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signage</title>
+  </head>
+  <body>
+    <section
+      class="bg-gray-100 flex flex-col min-h-[100vh] items-center justify-center"
+    >
+      <div class="border-[2px] rounded border-solid w-[400px] h-[400px] relative">
+         <div class="absolute inset-2 border-[2px] border-gray-300 border-solid">
+            <form onsubmit="calculateCost()" class="flex flex-col items-center justify-center gap-6 px-4">
+               <header>
+                 <h4 class="text-center text-[40px] font-semibold uppercase text-gray-600">
+                    custom signage
+                </h4>
+               </header>
+                <fieldset class="flex flex-col w-[90%]">
+                    <label for="name" class="text-black text-[20px]">Enter Name:</label>
+                    <input type="text" name="name" class="bg-gray-400 text-base rounded-lg py-2.5 text-black px-3" id="name">
+                </fieldset>
+
+                <!-- button -->
+                 <button class="bg-gray-600 px-3 py-2 text-yellow-100 uppercase self-end text-[18px] rounded-lg" id="submit">show cost</button>
+            </form>
+         </div>
+    </section>
+      </div>
+    </section>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>

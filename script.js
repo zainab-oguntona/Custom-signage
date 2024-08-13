@@ -1,7 +1,7 @@
 // "use strict";
 
 function calculateCost() {
-  // SELECT ALL TE NEEDED ELEMENTS
+  // SELECT ALL THE NEEDED ELEMENTS
   const nameInput = document.getElementById("nameInput").value.trim();
 
   const resultDiv = document.getElementById("result");
@@ -11,7 +11,7 @@ function calculateCost() {
 
   // Clear previous results and errors
   resultDiv.innerHTML = "";
-  // errorDiv.innerHTML = "";
+  errorDiv.innerHTML = "";
 
   // Check if the user entered a value
   if (nameInput === "") {
@@ -28,8 +28,10 @@ function calculateCost() {
   // Show the result
   resultDiv.innerHTML = `<p>${nameInput
     .split("")
-    .join(" ")}</p><div class="cost">$${totalCost}</div>`;
+    .join(" ")}</p><div class="resultf">$${totalCost}</div>`;
 }
+
+// calculateCost();
 
 // let showH = document.querySelector(".spn");
 // // let nameEntered = "";
