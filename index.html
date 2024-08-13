@@ -1,33 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Signage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Custom Signage</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <div>
+      <header>
+        <h1>C U S T O M &nbsp; S I G N A G E</h1>
+      </header>
+      <section class="section">
+        <label
+          style="
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 6px;
+            font-size: 20px;
+            color: rgb(48, 45, 45);
+          "
+          >Enter name:
+          <span
+            class="spn"
+            style="
+              font-size: 10px;
+              color: red;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            "
+            >Please enter a name below...</span
+          ></label
+        >
+        <input type="text" class="search" />
+      </section>
+      <footer>
+        <button class="show btn">SHOW COST</button>
+      </footer>
+    </div>
 
-<body>
-  <div>
-    <header>
-      <h1>C U S T O M &nbsp; S I G N A G E</h1>
-    </header>
-    <section class="section">
-      <Label
-        style="font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-left: 6px; font-size: 20px; color: rgb(48, 45, 45);">Enter
-        name: <span class="spn"
-          style="font-size: 10px; color: red; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Please
-          enter a name below...</span></Label>
-      <input type="text" class="search">
-    </section>
-    <footer>
-      <button class="show btn">SHOW COST</button>
-    </footer>
-  </div>
-
-
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
