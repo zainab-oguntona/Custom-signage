@@ -22,20 +22,21 @@
             color: rgb(48, 45, 45);
           "
           >Enter name:
-          <span
+          <p
             class="spn"
+            id="error"
             style="
               font-size: 10px;
               color: red;
               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             "
-            >Please enter a name below...</span
-          ></label
-        >
-        <input type="text" class="search" />
+          ></p
+        ></label>
+        <input type="text" class="search" id="nameInput" />
       </section>
       <footer>
-        <button class="show btn">SHOW COST</button>
+        <button class="show btn" onclick="calculateCost()">SHOW COST</button>
+        <p id="result"></p>
       </footer>
     </div>
 
