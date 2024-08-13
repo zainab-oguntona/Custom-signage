@@ -44,6 +44,6 @@ document.querySelector('.btn').addEventListener('click', function () {
   //   calculateCost();
   // console.log(`The total cost is ${nameEntered}`);
 
-
+  console.log(value);
 });
 
